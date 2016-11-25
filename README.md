@@ -11,6 +11,7 @@ We take several images of the object placed in front of the webcam of the laptop
 
 
 Camera Calibration | Nishant |   SVD / Optimization |
+| --- | --- | --- |
 Feature Extraction (Robust) | Nishant |   Differentiation  |
 Feature Matching  | Nishant |   Distance (Manhattan etc ) |
 Fundamental Matrix Estimation | Nishant |   RANSAC / SVD / EIG / Normalization | 

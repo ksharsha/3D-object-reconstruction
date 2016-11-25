@@ -45,67 +45,67 @@ features will do
 Need to be accurate so F estimate can be reliable  
  
 ###Feature Matching: 
-Input: 
+####Input: 
 Pair of images 
 Interest points for image1 
 Interest points for image2 
 Resultant image1 (output from feature extraction function) 
 Resultant image2 
-Output: 
+####Output: 
 Indexed matching of interest points 
 
 ###Fundamental Matrix: 
-Input: 
+####Input: 
 Feature Correspondences 
-Output: 
+####Output: 
 F
 
 ###Dense Correspondences: 
-Input: 
+####Input: 
 Pair of images 
 Camera Matrix (K) 
-Output: 
+####Output: 
 Indexed matching 
 Essential Matrix  
 
 ###Estimating Camera Motion: 
-Input: 
+####Input: 
 E 
 Camera Matrix (K) 
-Output: 
+####Output: 
 R 
 T 
 
 ###Subpixel Interpolation: 
-Input: 
+####Input: 
 Pair of images 
 Sobel response if available 
 Indexed matching 
 E 
-Output: 
+####Output: 
 Indexed matching at subpixel 
 
 ###Interpolation for Surface fitting:  
-Input: 
+####Input: 
 Pair of images 
 Indexed matching at subpixel 
 E 
-Output: 
+####Output: 
 Dense Disparity 
 
 ###Triangulation / Reconstruction 
-Input: 
+####Input: 
 Image1 
 Dense Disparity Map 
 Camera Matrix (K) 
 Fundamental Matrix (F) 
-Output: 
+####Output: 
 [3D points | RGB color] 
 
 ###BA 
-Input: 
+####Input: 
 Camera Matrix 
 [R | T]'s 
-Output: 
+####Output: 
 Visualization of 3D pointcloud
 
